@@ -1,0 +1,38 @@
+{
+  "name": "clothes_making_process",
+  "version": "1.0.0",
+  "description": "api ",
+  "keywords": [
+    "nononno"
+  ],
+  "homepage": "https://github.com/rauxalach160695-nvt/clothes_making_process#readme",
+  "bugs": {
+    "url": "https://github.com/rauxalach160695-nvt/clothes_making_process/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rauxalach160695-nvt/clothes_making_process.git"
+  },
+  "license": "ISC",
+  "author": "ThinhNguyen",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.42",
+    "@sequelize/mysql": "^7.0.0-alpha.48",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.20",
+    "nodemon": "^3.1.14",
+    "sequelize-cli": "^6.6.5",
+    "typescript": "^7.0.2"
+  }
+}
