@@ -17,7 +17,7 @@ pnpm-debug.log*
 # build Folder
 dist/
 build/
-*.tsbuildinfo
+*.tsbuildinfo   
 
 # Test coverage
 coverage/
